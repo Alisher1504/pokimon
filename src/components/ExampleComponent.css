@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+   
+
+   
+  .searchlar button{ 
+    background-color: rgb(15, 158, 247); 
+    color: white; 
+    padding: 11px; 
+    font-size: 26px; 
+    font-family: sans-serif; 
+    border-radius: 10px; 
+    margin-left: 10px; 
+    border: none;
+    cursor: pointer;
+  } 
+  
+  
+  .searchlar input{ 
+    width: 30%; 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 25px; 
+    border: 1px solid black; 
+  } 
+ 
+  
+  .searchlar button:hover{
+    background-color: aqua;
+    color: black;
+  }
+   
+  .reslaruchun{ 
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+  } 
+  .reslaruchun .card{ 
+    width: 300px; 
+    height: 400px; 
+    background: rgb(141, 255, 132); 
+    margin-top: 20px; 
+    cursor: pointer; 
+    border-radius: 10px;  
+  } 
+  
+  .reslaruchun .card:hover{
+    background-color: aqua;
+  }
+  
+  .card img{ 
+    width: 60%; 
+  }
+  
+
+  .searchlar{ 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 30px; 
+  } 
+
+  .themeText{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(0, 255, 17); 
+    margin: 0; 
+    height: 150px; 
+    color: white; 
+    font-size: 50px; 
+  } 
+   
